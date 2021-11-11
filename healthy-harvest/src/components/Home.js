@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import "./home.css";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 import company1 from "../components/images/imgs/company1.jpg";
 import company from "../components/images/imgs/company.png";

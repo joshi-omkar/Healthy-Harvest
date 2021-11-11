@@ -1,12 +1,23 @@
 
+.product-container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .course{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap:1.5rem;
+    padding: 20px;
+
+    margin-top: 120px;
   }
   
   .course .box{
-    flex:1 1 30rem;
+    flex:1 1 25rem;
     border:.1rem solid rgba(0,0,0,.1);
     padding:1rem;
     position: relative;
@@ -15,6 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 20px;
   }
   
   .course .box img{
@@ -41,6 +53,7 @@
   .course .box h3{
     color:var(--pink);
     font-size: 2.5rem;
+    padding-top: 10px;
   }
   
   .course .box p{
