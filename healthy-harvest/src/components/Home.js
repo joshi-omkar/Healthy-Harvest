@@ -11,7 +11,7 @@ import Product from "./images/imgs/product.png"
 
 function Home() {
     return (
-        <Router>
+        <>
         <Header/>
         <div>
             <div className="hero">
@@ -19,9 +19,8 @@ function Home() {
             <div className="h-content-left">
                 <p>Our Mother Culture</p>
                 <li className="title">Nature is Love , so as Agriculture</li>
-                <Link to="/explore" >
-                <button id="explore-btn" className="btn">Explore</button>
-                </Link>
+                <Link to="/explore" id="explore-btn" className="btn">Explore</Link>
+                
             </div>
         </div>
     </div>
@@ -278,7 +277,7 @@ function Home() {
     </div>
         </div>
         <Footer/>
-        </Router>
+        </>
     )
 }
 

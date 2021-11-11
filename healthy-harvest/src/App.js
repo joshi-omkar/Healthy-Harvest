@@ -1,9 +1,16 @@
 import React from 'react'
 import './App.css';
-import MainPage from './components/Home'
+import Home from './components/Home'
+import Explore from './components/Explore'
+import {BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 function App() {
   return (
-    <MainPage/>
+    <Router>
+            <Routes>
+                <Route path="/" exact component={Home}/>
+                <Route path="/explore" exact component={Explore}/>
+            </Routes>
+        </Router>
   );
 }
 
