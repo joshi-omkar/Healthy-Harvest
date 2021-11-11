@@ -6,11 +6,11 @@ import {BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 function App() {
   return (
     <Router>
-            <Routes>
-                <Route path="/" exact component={Home}/>
-                <Route path="/explore" exact component={Explore}/>
-            </Routes>
-        </Router>
+      <Routes>
+        <Route path="/" exact component={<Home/>}/>
+        <Route path="/explore" exact component={Explore}/>
+      </Routes>
+    </Router>
   );
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import "./explore.css";
-import { BrowserRouter as Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Explore() {
   return (
@@ -20,9 +20,9 @@ function Explore() {
             ullam omnis odit accusamus doloremque? Cum aliquid unde nulla.
             Vitae, adipisci?
           </p>
-          <a href="#" class="btn">
+          <Link to="#" class="btn">
             Buy
-          </a>
+          </Link>
         </div>
 
         <div class="box">
@@ -34,9 +34,9 @@ function Explore() {
             ullam omnis odit accusamus doloremque? Cum aliquid unde nulla.
             Vitae, adipisci?
           </p>
-          <a href="#" class="btn">
+          <Link to="#" class="btn">
             Buy
-          </a>
+          </Link>
         </div>
 
         <div class="box">
@@ -48,9 +48,9 @@ function Explore() {
             ullam omnis odit accusamus doloremque? Cum aliquid unde nulla.
             Vitae, adipisci?
           </p>
-          <a href="#" class="btn">
+          <Link to="#" class="btn">
             Buy
-          </a>
+          </Link>
         </div>
 
         <div class="box">
@@ -62,9 +62,9 @@ function Explore() {
             ullam omnis odit accusamus doloremque? Cum aliquid unde nulla.
             Vitae, adipisci?
           </p>
-          <a href="#" class="btn">
+          <Link to="#" class="btn">
             Buy
-          </a>
+          </Link>
         </div>
 
         <div class="box">
@@ -76,9 +76,9 @@ function Explore() {
             ullam omnis odit accusamus doloremque? Cum aliquid unde nulla.
             Vitae, adipisci?
           </p>
-          <a href="#" class="btn">
+          <Link to="#" class="btn">
             Buy
-          </a>
+          </Link>
         </div>
 
         <div class="box">
@@ -90,9 +90,9 @@ function Explore() {
             ullam omnis odit accusamus doloremque? Cum aliquid unde nulla.
             Vitae, adipisci?
           </p>
-          <a href="#" class="btn">
+          <Link to="#" class="btn">
             Buy
-          </a>
+          </Link>
         </div>
       </section>
 
